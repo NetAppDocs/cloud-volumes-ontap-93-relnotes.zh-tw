@@ -1,0 +1,180 @@
+---
+sidebar: sidebar 
+permalink: reference-storage-limits.html 
+keywords: limits, maximum, storage, aggregates, disks, volumes, capacity, luns, size, storage virtual machine, SVM 
+summary: 利用儲存組態的限制、可提供可靠的作業。ONTAP為獲得最佳效能、請勿將系統設定為最大值。 
+---
+= 儲存限制
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+利用儲存組態的限制、可提供可靠的作業。ONTAP為獲得最佳效能、請勿將系統設定為最大值。
+
+以下各節列出集合體、磁碟區、LUN及相關儲存物件的限制。請注意ONTAP 、針對特定機型、提供最大的不只是功能。支援較低原始容量限制的NetApp Cloud組態無法達到部分大小和磁碟限制。ONTAP
+
+
+
+== AWS中的實體儲存限制ONTAP
+
+[cols="3*"]
+|===
+| 實體儲存設備 | 參數 | 限制 
+
+
+.5+| *集合體與磁碟* | 最大集合體數 | 34個用於HA組態中每個節點18個單節點組態^1^ 
+
+
+| 最大Aggregate大小 | 96 TiB原始容量 
+
+
+| 每個集合體的磁碟數 | 1-6 ^2^ 
+
+
+| 最大磁碟大小 | 16 TiB 
+
+
+| 所有集合體中的資料磁碟數目上限^3^ | 34個用於HA組態中每個節點31個的單節點組態 
+
+
+| * RAID群組* | 每個Aggregate的上限 | 1. 
+|===
+附註：
+
+. 無法在HA配對中的兩個節點上建立18個Aggregate、因為這樣做會超過資料磁碟限制。
+. 集合體中的所有磁碟大小必須相同。
+. 資料磁碟限制僅適用於包含使用者資料的磁碟。此限制不包含每個節點的開機磁碟和根磁碟。
+
+
+
+
+== Azure中的實體儲存限制ONTAP
+
+[cols="3*"]
+|===
+| 實體儲存設備 | 參數 | 限制 
+
+
+.5+| *集合體與磁碟* | 最大集合體數 | 63. 
+
+
+| 最大Aggregate大小 | 200 TiB原始容量 
+
+
+| 每個集合體的磁碟數 | 1-12^1^ 
+
+
+| 最大磁碟大小 | 32 TiB 
+
+
+| 所有集合體中的資料磁碟數目上限^2^  a| 
+* DS3_v2：15
+* DS4_v2：31
+* DS5_v2：63
+* DS13_v2：31
+* DS14_v2：63
+
+
+
+
+| * RAID群組* | 每個Aggregate的上限 | 1. 
+|===
+附註：
+
+. 集合體中的所有磁碟大小必須相同。
+. 資料磁碟限制僅適用於包含使用者資料的磁碟。此限制不包含每個節點的開機磁碟和根磁碟。
+
+
+
+
+== 邏輯儲存限制
+
+[cols="22,22,56"]
+|===
+| 邏輯儲存設備 | 參數 | 限制 
+
+
+| *儲存虛擬機器（SVM）* | 適用於不符合需求的Cloud（ONTAP HA配對或單一節點）的最大數量 | 一個資料服務SVM和一個目的地SVM、用於災難恢復。如果來源SVM發生中斷、您可以啟動目的地SVM進行資料存取。一部資料服務SVM橫跨ONTAP 整個整個過程（HA配對或單一節點）。 
+
+
+.2+| *檔案* | 最大尺寸 | 16 TiB 
+
+
+| 每個Volume的最大值 | 磁碟區大小視情況而定、高達20億 
+
+
+| * FlexClone Volumes * | 階層式複製深度^2^ | 499年 
+
+
+.3+| *《*》卷* FlexVol | 每個節點的最大值 | 500 
+
+
+| 最小尺寸 | 20 MB 
+
+
+| 最大尺寸 | AWS：與Aggregate大小的相依關連^3^ Azure：100 TiB 
+
+
+| * qtree * | 每FlexVol 個速度區塊的最大值 | 4、995 
+
+
+| * Snapshot複本* | 每FlexVol 個速度區塊的最大值 | 255. 
+|===
+附註：
+
+. Cloud Manager不提供任何SVM災難恢復的設定或協調支援。它也不支援其他SVM上的儲存相關工作。您必須使用System Manager或CLI進行SVM災難恢復。
++
+** https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["SVM 災難恢復準備快速指南"^]
+** https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["SVM Disaster Recovery Express 指南"^]
+
+
+. 階層式複製深度是FlexClone Volume的巢狀階層架構深度上限、可從單FlexVol 一的實體磁碟區建立。
+. 支援低於100 TiB、因為此組態的集合體僅限96 TiB的_raw_容量。
+
+
+
+
+== iSCSI儲存限制
+
+[cols="3*"]
+|===
+| iSCSI儲存設備 | 參數 | 限制 
+
+
+.4+| * LUN* | 每個節點的最大值 | 1 、 024 
+
+
+| LUN對應的最大數目 | 1 、 024 
+
+
+| 最大尺寸 | 16 TiB 
+
+
+| 每個Volume的最大值 | 512 
+
+
+| *群組* | 每個節點的最大值 | 256 
+
+
+.2+| *啟動器* | 每個節點的最大值 | 512 
+
+
+| 每個igroup的最大值 | 128/128 
+
+
+| * iSCSI工作階段* | 每個節點的最大值 | 1 、 024 
+
+
+.2+| *生命* | 每個連接埠的上限 | 32 
+
+
+| 每個連接埠集的上限 | 32 
+
+
+| * PortSets* | 每個節點的最大值 | 256 
+|===

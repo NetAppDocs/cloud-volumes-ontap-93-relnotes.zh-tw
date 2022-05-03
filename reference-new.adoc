@@ -1,0 +1,90 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: 包含多項新功能與增強功能的NetApp Cloud 9.3。ONTAP 
+---
+= 更新功能ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+包含多項新功能與增強功能的NetApp Cloud 9.3。ONTAP
+
+
+
+== AWS的Cloud HA增強功能ONTAP
+
+9.3版本說明ONTAP 了不間斷的功能、可讓您容忍AWS生態系統內的網路故障或暫時性較高延遲、並確保客戶資料在這類事件中的可用度。
+
+
+
+== 支援AWS中的歐盟（巴黎）地區
+
+目前AWS的歐盟（巴黎）地區支援此解決方案。ONTAP根據此地區支援的執行個體類型、ONTAP 下列的《支援的Cloud組態》可在歐盟（巴黎）地區取得：
+
+* 適用於雲端的Standard（R4.xLarge）ONTAP
+* 適用於雲端的Premium（r4.2xLarge）ONTAP
+* 適用雲端BYOL（R4.xLarge和r4.2xLarge）ONTAP
+
+
+
+
+== Azure Premium磁碟提供增強的寫入效能
+
+使用優質儲存磁碟時、Azure的ONTAP 寫入效能已有改善。此項增強功能可透過ONTAP 《支援使用者支援的功能包括：Cloud Standard、Premium和BYOL。
+
+
+NOTE: 使用DS3_v2虛擬機器類型時、不支援寫入效能增強功能。
+
+
+
+== Azure中的不只是功能性、還能增加ONTAP 容量限制
+
+使用DS5_v2或DS14_v2虛擬機器類型時、適用的功能限制ONTAP 為252525TB ONTAP 、而不只適用於EfetcCloud Premium和EfetcCloud BYOL。
+
+
+NOTE: 這項變更之所以可能、是因為每個Azure虛擬機器可用的磁碟數量增加。它不會變更每個Aggregate的最大容量。
+
+
+
+== 支援Azure US Gov地區
+
+您現在可以在ONTAP 下列Azure地區部署Cloud Manager和《不再供應雲端BYOL：
+
+* 美國Gov亞利桑那州
+* 美國德州Gov
+* 美國Gov Virginia
+
+
+若要在這些地區部署Cloud Manager、您必須從Azure Marketplace建立CentOS 7.3虛擬機器、從NetApp支援網站下載Cloud Manager安裝程式、然後安裝軟體。Cloud Manager執行之後、您可以像ONTAP 其他地區一樣、在這些區域部署不受限的Cloud BYOL系統。
+
+
+
+== 支援SVM災難恢復
+
+支援單一資料服務SVM和單一目的地SVM以進行災難恢復。ONTAP如果來源SVM發生中斷、您可以啟動目的地SVM進行資料存取。
+
+SVM 災難恢復是從來源 SVM 到目的地 SVM 的 SVM 資料和組態非同步鏡射。如果來源 SVM 不再可用、您可以快速啟動目的地 SVM 以進行資料存取。
+
+
+NOTE: Cloud Manager不提供任何SVM災難恢復的設定或協調支援。它也不支援任何其他SVM上的儲存相關工作。您必須使用System Manager或CLI進行SVM災難恢復。
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["SVM 災難恢復準備快速指南"^]
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["SVM Disaster Recovery Express 指南"^]
+
+
+
+== 升級附註
+
+* 必須從Cloud Manager完成升級。您不應ONTAP 使用System Manager或CLI來升級解決方案。這樣做可能會影響系統穩定性。
+* 您可以從ONTAP Cloud 9.2升級至Cloud 9.3 ONTAP 。
+* 單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。
+* 升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。
+

@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: These release notes describe new features, limitations, and known issues for ONTAP Cloud 9.3. 
+summary: 這些版本說明ONTAP 介紹了有關Cloud 9.3的新功能、限制和已知問題。 
+---
+= 《Cloud 9.3版本說明》ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

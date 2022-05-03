@@ -1,0 +1,105 @@
+---
+sidebar: sidebar 
+permalink: reference-supported-configs.html 
+keywords: ec2, instance, type, vm, explore, standard, premium, byol, capacity, maximum, virtual machine, ontap cloud, supported, configurations 
+summary: AWS和Azure提供多種組態的解決方案。ONTAP 
+---
+= 支援的組態
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+AWS和Azure提供了兩種價格選項：隨用隨付、自帶授權（BYOL）ONTAP 。對於隨用隨付的方案、您可以從三種組態中選擇：Explore、Standard或Premium。
+
+
+
+== 適用於AWS的Cloud ONTAP
+
+在AWS中、您可以將ONTAP Cloud部署為單一系統或HA配對。
+
+[cols="h,d,d,d,d"]
+|===
+|  | 瀏覽 | 標準 | 優質 | BYOL 
+
+
+| EC2執行個體類型 | m4.xlarge  a| 
+* m4.2xLarge
+* r4.xlarge
+
+ a| 
+* c4.4xlarge
+* c4.8xlarge
+* m4.4xlarge
+* r4.2xlarge
+
+ a| 
+* c4.4xlarge
+* c4.8xlarge
+* m4.xlarge
+* m4.2xLarge
+* m4.4xlarge
+* r4.xlarge
+* r4.2xlarge
+
+
+
+
+| 基礎儲存設備 4+| 通用SSD、已配置的IOPS SSD、處理量最佳化HDD和冷HDD、每個磁碟最多16 TiB 
+
+
+| 授權容量限制 | 2 TiB | 10 TiB | 368TiB | 每個授權368TiB 
+|===
+附註：
+
+. GovCloud（美國）不支援隨用隨付組態。
+. 當您選擇EC2執行個體類型時、可以指定它是共用執行個體或專屬執行個體。
+. 使用EBS SSD搭配ONTAP 使用時、支援增強的寫入效能、包括ESSE- Cloud Standard、Premium和BYOL。
+. 支援資料分層功能的ONTAP 功能包括：NetApp Cloud Standard、Premium和BYOL。
+. 如果您啟用資料分層、系統的容量限制會維持不變。容量限制包括磁碟和物件儲存設備。
+. 如需AWS區域支援、請參閱 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"]。
+
+
+
+
+== 適用於Azure的Cloud ONTAP
+
+在Azure中、ONTAP 您可以將解決方案作為單一節點系統來部署。
+
+[cols="h,d,d,d,d"]
+|===
+|  | 瀏覽 | 標準 | 優質 | BYOL 
+
+
+| 虛擬機器類型 | DS3_v2  a| 
+* DS4_v2
+* DS13_v2
+
+ a| 
+* DS5_v2
+* DS14_v2
+
+ a| 
+* DS3_v2
+* DS4_v2
+* DS5_v2
+* DS13_v2
+* DS14_v2
+
+
+
+
+| 基礎儲存設備 4+| 標準HDD託管磁碟、標準SSD託管磁碟和優質SSD託管磁碟、每個磁碟最多32 TiB 
+
+
+| 授權容量限制 | 2 TiB | 10 TiB | 368TiB | 每個授權368TiB 
+|===
+附註：
+
+. 使用具備ONTAP VMware Cloud Standard、Premium和BYOL的Azure Premium Storage磁碟時、支援增強寫入效能、但使用DS3_v2虛擬機器類型時則不支援。
+. 如需Azure地區支援、請參閱 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"]。
+
