@@ -128,15 +128,3 @@ summary: 已知限制指出本產品版本不支援的平台、裝置或功能�
 您必須從金鑰管理程式手動刪除金鑰。
 
 
-
-
-
-== Azure中的已知問題ONTAP
-
-下列已知限制會影響ONTAP Azure中的Cloud。
-
-
-
-=== CSP合作夥伴無法使用「隨用隨付雲端」ONTAP
-
-如果您是Microsoft Cloud Solution Provider（CSP）合作夥伴、您將無法部署ONTAP 《支援以隨用隨付的方式付費訂閱》、《標準版》或《優質版》、因為CSP合作夥伴無法使用「隨用隨付」訂閱。您必須購買授權、並部署ONTAP 不含「功能性的Cloud BYOL」。
