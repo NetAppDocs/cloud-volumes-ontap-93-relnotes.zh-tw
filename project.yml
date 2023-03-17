@@ -11,11 +11,11 @@ settings:
   - name: 解決方案ONTAP
     url: "/cloud-volumes-ontap-93-relnotes"
     version-number: '9.3'
-  - name: Cloud Volumes ONTAP
+  - name: 最新版Cloud Volumes ONTAP
     url: "/cloud-volumes-ontap-relnotes"
-    version-number: Cloud Volumes ONTAP latest
+    version-number: ''
   - name: 其他版本
-    url: "/cloud-volumes-ontap-relnotes/reference-other-versions.html"
+    url: cloud-volumes-ontap-relnotes/reference-other-versions.html
     version-number: ''
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr
 sidebar:

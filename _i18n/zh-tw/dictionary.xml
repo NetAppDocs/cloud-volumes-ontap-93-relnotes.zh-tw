@@ -245,6 +245,6 @@
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">解決方案ONTAP</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="8ba7e9fc95ff683b40e7c59130ea44da" category="sidebar">其他版本</block>
+  <block id="81f8dd8c5b5f9313fbcd1bd888aaa96c" category="sidebar">最新版Cloud Volumes ONTAP</block>
 </blocks>
