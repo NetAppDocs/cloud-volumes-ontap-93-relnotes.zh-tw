@@ -245,38 +245,5 @@
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">解決方案ONTAP</block>
-  <block id="8ba7e9fc95ff683b40e7c59130ea44da" category="sidebar">其他版本</block>
-  <block id="81f8dd8c5b5f9313fbcd1bd888aaa96c" category="sidebar">最新版Cloud Volumes ONTAP</block>
-  <block id="cf82f9e4739ede759d30a8797b555e57" category="summary">如果您未執行最新Cloud Volumes ONTAP 版的更新版本、則可取得其他版本的文件。您可以使用頁面右上角的版本選取器、或使用下列連結尋找其他版本。</block>
-  <block id="ce82054d211a2682af67bf1effd48d55" category="paragraph">如果您未執行最新Cloud Volumes ONTAP 版的更新版本、則可取得其他版本的文件。您可以使用頁面右上角的版本選取器、或使用下列連結。</block>
-  <block id="5b420079bca1c870914caa221b31442e" category="inline-link-macro">支援的支援Cloud Volumes ONTAP</block>
-  <block id="ffc57f9ad1eddac8492feb646fd4da6c" category="list-text"><block ref="ffc57f9ad1eddac8492feb646fd4da6c" category="inline-link-macro-rx"></block></block>
-  <block id="dba89da91170934734e847dcfe4ad5d0" category="inline-link-macro">零點9.12.1. Cloud Volumes ONTAP</block>
-  <block id="3ac40836ad3536cc759ef18271bc0922" category="list-text"><block ref="3ac40836ad3536cc759ef18271bc0922" category="inline-link-macro-rx"></block></block>
-  <block id="bf748f930fa11e46773ff6f7b815e480" category="inline-link-macro">零件9.12.0 Cloud Volumes ONTAP</block>
-  <block id="e710019c8a65cbe763d8832d6d873b8a" category="list-text"><block ref="e710019c8a65cbe763d8832d6d873b8a" category="inline-link-macro-rx"></block></block>
-  <block id="daa1014700acb24b76e93296bfc813fb" category="inline-link-macro">零點9.11.1. Cloud Volumes ONTAP</block>
-  <block id="c61af9d3a5afdd8afd3b453a1942eacc" category="list-text"><block ref="c61af9d3a5afdd8afd3b453a1942eacc" category="inline-link-macro-rx"></block></block>
-  <block id="44521137c9499dbef6a006058d0d9127" category="inline-link-macro">版本9.11.0 Cloud Volumes ONTAP</block>
-  <block id="57082e6493ab7c2f3066e5da7735b4cd" category="list-text"><block ref="57082e6493ab7c2f3066e5da7735b4cd" category="inline-link-macro-rx"></block></block>
-  <block id="793e5668f96fd622a2b0f0f5b056d9f1" category="inline-link-macro">零點9.10.1 Cloud Volumes ONTAP</block>
-  <block id="d84582cb5835fe6898898ac96668b577" category="list-text"><block ref="d84582cb5835fe6898898ac96668b577" category="inline-link-macro-rx"></block></block>
-  <block id="1217a2d42a5d039798ff2ec7be351708" category="inline-link-macro">零點9.10.0 Cloud Volumes ONTAP</block>
-  <block id="cdfa895364ba73a7480299fbd2abf768" category="list-text"><block ref="cdfa895364ba73a7480299fbd2abf768" category="inline-link-macro-rx"></block></block>
-  <block id="910d8975bd41857a0103e9a8657ea7d9" category="inline-link-macro">部分9.9.1 Cloud Volumes ONTAP</block>
-  <block id="045396c0efbee7a85a64e9e19858889a" category="list-text"><block ref="045396c0efbee7a85a64e9e19858889a" category="inline-link-macro-rx"></block></block>
-  <block id="4e9e74671f654c298cca727d225f4898" category="inline-link-macro">版本9.9.0 Cloud Volumes ONTAP</block>
-  <block id="6e55816615578526bc71bec825d071f6" category="list-text"><block ref="6e55816615578526bc71bec825d071f6" category="inline-link-macro-rx"></block></block>
-  <block id="7f35dccb22aab2847136ffc356c63e42" category="inline-link-macro">部分9.8 Cloud Volumes ONTAP</block>
-  <block id="5f5bc9c2582ffc743a15e2e4c4d8f82b" category="list-text"><block ref="5f5bc9c2582ffc743a15e2e4c4d8f82b" category="inline-link-macro-rx"></block></block>
-  <block id="03e0174a91af96fe57614937684f7818" category="inline-link-macro">更新Cloud Volumes ONTAP</block>
-  <block id="3d376421b02f18f5e4f69d3279960192" category="list-text"><block ref="3d376421b02f18f5e4f69d3279960192" category="inline-link-macro-rx"></block></block>
-  <block id="633977a9055fad0cd244a0d95fb64954" category="inline-link-macro">部分9.6 Cloud Volumes ONTAP</block>
-  <block id="e992336bc44f92f976150dd4f7e620a6" category="list-text"><block ref="e992336bc44f92f976150dd4f7e620a6" category="inline-link-macro-rx"></block></block>
-  <block id="ec01856b06871c06577cf1f7ecb0233d" category="inline-link-macro">版本9.5 Cloud Volumes ONTAP</block>
-  <block id="fe7d7a50736d47640427625bca62cb36" category="list-text"><block ref="fe7d7a50736d47640427625bca62cb36" category="inline-link-macro-rx"></block></block>
-  <block id="5b16e1c50a54197d4843f6f901ccf2bf" category="inline-link-macro">部分9.4 Cloud Volumes ONTAP</block>
-  <block id="663f1573f55167542b3bee38f83d5f96" category="list-text"><block ref="663f1573f55167542b3bee38f83d5f96" category="inline-link-macro-rx"></block></block>
-  <block id="97f3c6731c8912070f3710d9846573a9" category="inline-link-macro">部分9.3 Cloud Volumes ONTAP</block>
-  <block id="c71b3b00a30d16fdf35bec7a546359f0" category="list-text"><block ref="c71b3b00a30d16fdf35bec7a546359f0" category="inline-link-macro-rx"></block></block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
 </blocks>
