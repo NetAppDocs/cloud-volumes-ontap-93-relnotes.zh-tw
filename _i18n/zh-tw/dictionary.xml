@@ -45,7 +45,6 @@
   <block id="aa9528fad85cffe83be0372dc56e2966" category="list-text">使用具備ONTAP VMware Cloud Standard、Premium和BYOL的Azure Premium Storage磁碟時、支援增強寫入效能、但使用DS3_v2虛擬機器類型時則不支援。</block>
   <block id="f1d030b53e2e410016e67d8d3b5484c4" category="list-text">如需Azure地區支援、請參閱<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
   <block id="8d3d4f13602cd5a25a775931599b70ea" category="summary">這些版本說明ONTAP 介紹了有關Cloud 9.3的新功能、限制和已知問題。</block>
-  <block id="d5e6ac2df92a695122340bdc7757b16e" category="doc">《Cloud 9.3版本說明》ONTAP</block>
   <block id="b7146193748c9abe7b57ee8d1a61e329" category="summary">利用儲存組態的限制、可提供可靠的作業。ONTAP為獲得最佳效能、請勿將系統設定為最大值。</block>
   <block id="150a34e7bbdf7765066eae5fadb9f919" category="doc">儲存限制</block>
   <block id="4044d85e7b76a3d297b700c150a40918" category="paragraph">以下各節列出集合體、磁碟區、LUN及相關儲存物件的限制。請注意ONTAP 、針對特定機型、提供最大的不只是功能。支援較低原始容量限制的NetApp Cloud組態無法達到部分大小和磁碟限制。ONTAP</block>
@@ -230,7 +229,6 @@
   <block id="201bc9587a8b00034e50b14ea2bdb149" category="list-text">您可以從ONTAP Cloud 9.2升級至Cloud 9.3 ONTAP 。</block>
   <block id="9f0f02784feedfa2549a9e3a51cfa315" category="list-text">單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。</block>
   <block id="00795e3f043d0bab791590ffc0257204" category="list-text">升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">版本資訊首頁</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="e19968c5ebc4b94a271992f4b0563be8" category="sidebar">組態與限制</block>
@@ -239,9 +237,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
-  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">解決方案ONTAP</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -250,4 +245,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="f9a77fb7fd4e4f366ad7adb32159b4b0" category="sidebar">ONTAP Cloud 9.3 版本資訊</block>
 </blocks>
