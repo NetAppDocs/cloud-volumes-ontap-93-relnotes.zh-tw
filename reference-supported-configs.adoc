@@ -61,7 +61,7 @@ AWS和Azure提供了兩種價格選項：隨用隨付、自帶授權（BYOL）ON
 . 使用EBS SSD搭配ONTAP 使用時、支援增強的寫入效能、包括ESSE- Cloud Standard、Premium和BYOL。
 . 支援資料分層功能的ONTAP 功能包括：NetApp Cloud Standard、Premium和BYOL。
 . 如果您啟用資料分層、系統的容量限制會維持不變。容量限制包括磁碟和物件儲存設備。
-. 如需AWS區域支援、請參閱 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"]。
+. 如需 AWS 區域支援 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"]、請參閱。
 
 
 
@@ -101,5 +101,5 @@ AWS和Azure提供了兩種價格選項：隨用隨付、自帶授權（BYOL）ON
 附註：
 
 . 使用具備ONTAP VMware Cloud Standard、Premium和BYOL的Azure Premium Storage磁碟時、支援增強寫入效能、但使用DS3_v2虛擬機器類型時則不支援。
-. 如需Azure地區支援、請參閱 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"]。
+. 如需 Azure 區域支援 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes全球區域"]、請參閱。
 

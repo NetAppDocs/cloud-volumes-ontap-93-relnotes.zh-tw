@@ -32,7 +32,6 @@
   <block id="13162bf30327abdba3d09f8e1c60b64e" category="list-text">支援資料分層功能的ONTAP 功能包括：NetApp Cloud Standard、Premium和BYOL。</block>
   <block id="11f741fe0ee39ada647e4516d0574ff2" category="list-text">如果您啟用資料分層、系統的容量限制會維持不變。容量限制包括磁碟和物件儲存設備。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes全球區域</block>
-  <block id="cb104b2dcdc78de65cc73aeaefde0837" category="list-text">如需AWS區域支援、請參閱<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
   <block id="32ced4ad9724b29c3509b663ee4658c7" category="section-title">適用於Azure的Cloud ONTAP</block>
   <block id="aec43df3118114472b9dabb21326a8ae" category="paragraph">在Azure中、ONTAP 您可以將解決方案作為單一節點系統來部署。</block>
   <block id="5fbb3d7412f89cff55389171f83d7684" category="cell">虛擬機器類型</block>
@@ -43,7 +42,6 @@
   <block id="b72144fa0a4e25809ce8fa02430673a7" category="list-text">DS14_v2</block>
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">標準HDD託管磁碟、標準SSD託管磁碟和優質SSD託管磁碟、每個磁碟最多32 TiB</block>
   <block id="aa9528fad85cffe83be0372dc56e2966" category="list-text">使用具備ONTAP VMware Cloud Standard、Premium和BYOL的Azure Premium Storage磁碟時、支援增強寫入效能、但使用DS3_v2虛擬機器類型時則不支援。</block>
-  <block id="f1d030b53e2e410016e67d8d3b5484c4" category="list-text">如需Azure地區支援、請參閱<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
   <block id="8d3d4f13602cd5a25a775931599b70ea" category="summary">這些版本說明ONTAP 介紹了有關Cloud 9.3的新功能、限制和已知問題。</block>
   <block id="b7146193748c9abe7b57ee8d1a61e329" category="summary">利用儲存組態的限制、可提供可靠的作業。ONTAP為獲得最佳效能、請勿將系統設定為最大值。</block>
   <block id="150a34e7bbdf7765066eae5fadb9f919" category="doc">儲存限制</block>
@@ -246,4 +244,6 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="f9a77fb7fd4e4f366ad7adb32159b4b0" category="sidebar">ONTAP Cloud 9.3 版本資訊</block>
+  <block id="9e6aaceebf3e3ad831b702e903ff9333" category="list-text">如需 AWS 區域支援<block ref="b1f7a3157f8c754c9d3157099510954f" category="inline-link-rx"></block>、請參閱。</block>
+  <block id="e7b769b353d56a6c381d67f5a632c000" category="list-text">如需 Azure 區域支援<block ref="b1f7a3157f8c754c9d3157099510954f" category="inline-link-rx"></block>、請參閱。</block>
 </blocks>
