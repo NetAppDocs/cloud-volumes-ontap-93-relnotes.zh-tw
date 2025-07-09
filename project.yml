@@ -2,7 +2,6 @@
 settings:
   name: ONTAP Cloud
   downlevel: true
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:
